@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrLife</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo" href="#">
+                        <img src="images/logo.svg" alt="MR.Быт">
+                    </a>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="menu__list" data-menu-step="0" id="menu-0">
+                            <li class="menu__item" data-menu="menu-1" data-menu-parent="menu-0">
+                                <a href="#" class="menu__link">
+                                    Цены на услуги
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Отзывы
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <select class="region__select">
+                        <option value="Moscow">
+                            Moсква и Подмосковье
+                        </option>
+                        <option value="Peterburg">
+                            Санкт-Петербург
+                        </option>
+                    </select>
+                    <a href="tel:84951065216" class="phone">
+                        8 (495) <span>106-52-16</span>
+                    </a>
+                </div>
+                <div class="header__drops">
+                    <ul class="menu-sub__list" data-menu-step="1" id="menu-1">
+                        <li class="menu-sub__item" data-menu="menu-2" data-menu-parent="menu-1">
+                            <a href="#" class="menu-sub__link">
+                                Стиральные машины
+                            </a>
+                        </li>
+                        <li class="menu-sub__item" data-menu="menu-3" data-menu-parent="menu-1">
+                            <a href="#" class="menu-sub__link">
+                                Посудомоечные машины
+                            </a>
+                        </li>
+                        <li class="menu-sub__item" data-menu="menu-4" data-menu-parent="menu-1">
+                            <a href="#" class="menu-sub__link">
+                                Холодильники
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="sub-menus">
+                        <div class="sub-menu" data-menu-step="2" id="menu-2" style="background-image: url(images/technique/wash.png);">
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не морозит
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Перемораживает
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Намерзает лёд
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не включается
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не выключается
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не включается
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Сильно шумит
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Протекает
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не холодит
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Греется
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="sub-menu__more" href="#">
+                                подробнее
+                            </a>
+                        </div>
+                        <div class="sub-menu" data-menu-step="2" id="menu-3" style="background-image: url(images/technique/dryer.png);">
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не морозит
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Перемораживает
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Намерзает лёд
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не включается
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не выключается
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не включается
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Сильно шумит
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Протекает
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не холодит
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Греется
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="sub-menu__more" href="#">
+                                подробнее
+                            </a>
+                        </div>
+                        <div class="sub-menu" data-menu-step="2" id="menu-4" style="background-image: url(images/technique/fridge.png);">
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не морозит
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Перемораживает
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Намерзает лёд
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не включается
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не выключается
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sub-list">
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не включается
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Сильно шумит
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Протекает
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Не холодит
+                                    </a>
+                                </li>
+                                <li class="sub-item">
+                                    <a href="#" class="sub-link">
+                                        Греется
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="sub-menu__more" href="#">
+                                подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="intro" id="intro">
+                <div class="intro__inner">
+                    <div class="intro__content">
+                        <div class="container">
+                            <div class="intro__content-inner">
+                                <h2 class="intro__suptitle">
+                                    БЫСТРО И ПРОСТО
+                                </h2>
+                                <h1 class="intro__title">
+                                    РЕМОНТ БЫТОВОЙ ТЕХНИКИ
+                                </h1>
+                                <div class="intro__caption">
+                                    Выезд мастера от 30 минут
+                                </div>
+                                <form class="intro__feedback">
+                                    <input type="tel" class="intro__input" pattern="^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$" required placeholder="+7 (999) 000-00-00">
+                                    <button class="intro__btn btn">
+                                        Заказать
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro__img">
+                        <img src="images/intro-banner.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="intro__link">
+                    МЕРЫ БЕЗОПАСТНОСТИ
+                </a>
+            </section>
+            <section class="services">
+                <div class="container">
+                    <div class="section__header">
+                        <h2 class="section__title">
+                            Чем мы поможем?
+                        </h2>
+                        <div class="section__caption">
+                            Приоритетным направлением деятельности нашей компании является ремонт бытовой техники на дому.
+                        </div>
+                        <a href="#" class="widget">
+                            <img src="images/widget-call-button.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="services__items">
+                        <div class="services__item" style="background-image: url(images/technique/wash.png);">
+                            <h3 class="services__title">
+                                Ремонт стиральных машин
+                            </h3>
+                            <ul class="services__list">
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Не сливает
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Долго стирает
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Протекает
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Не отжимает
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Не влючается
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Сильно шумит
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="services__more">
+                                подробнее
+                            </a>
+                        </div>
+                        <div class="services__item" style="background-image: url(images/technique/fridge.png);">
+                            <h3 class="services__title">
+                                Ремонт хлодильников
+                            </h3>
+                            <ul class="services__list">
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Не морозит
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Гудит и шумит
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Не отключается
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Вода внутри
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Не холодит
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Намерзает лед
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="services__more">
+                                подробнее
+                            </a>
+                        </div>
+                        <div class="services__item" style="background-image: url(images/technique/dryer.png);">
+                            <h3 class="services__title">
+                                Ремонт посудомоечных машин
+                            </h3>
+                            <ul class="services__list">
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Плохо моет
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Не набирает
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Отключается
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Не сливает
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Течет
+                                    </a>
+                                </li>
+                                <li class="services__list-item">
+                                    <a href="#" class="services__list-link">
+                                        Не светится
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="services__more">
+                                подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="masters">
+                <div class="container">
+                    <div class="section__header">
+                        <h2 class="section__title">
+                            Хорошие мастера у нас?
+                        </h2>
+                        <div class="section__caption">
+                            Наши жесткие критерии отбора мастеров позволяют держать качество ремонта на высшем уровне и оставлять гарантию.
+                        </div>
+                    </div>
+                    <div class="masters__top">
+                        <div class="masters__left">
+                            <div class="masters__header">
+                                <h3 class="masters__title">
+                                    ПОДБЕРЕМ БЛИЖАЙШЕГО МАСТЕРА
+                                </h3>
+                                <div class="masters__caption">
+                                    Введите ваш адрес, и узнайте где ближайший наш мастер. И рассчет время прибытия.
+                                </div>
+                            </div>
+                            <form class="masters__find">
+                                <div class="masters__find-inner">
+                                    <input type="text" class="masters__input">
+                                    <button class="masters__btn btn">
+                                        Проверить
+                                    </button>
+                                </div>
+                                <label class="masters__label">
+                                    <input type="checkbox" class="masters__checkbox">
+                                    Нажимая на кнопку "Проверить", я даю свое согласие на обработку своих персональных данных.
+                                </label>
+                            </form>
+                        </div>
+                        <div class="masters__right">
+                            <ul class="masters__list">
+                                <li class="masters__item">
+                                    Проверям документы
+                                </li>
+                                <li class="masters__item">
+                                    Только граждане РФ
+                                </li>
+                                <li class="masters__item">
+                                    Подтвежденные сертификаты
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="masters__slider">
+                        <div class="swiper-wrapper">
+                            <div class="masters__slide swiper-slide">
+                                <div class="master__slide-top">
+                                    <h4 class="masters__name">
+                                        Олег Самсонов
+                                    </h4>
+                                    <div class="masters__experience">
+                                        7 лет опыта
+                                    </div>
+                                    <div class="masters__specialization">
+                                        Мастер по ремонту стиральным машин
+                                        и посудомоечных машин
+                                    </div>
+                                </div>
+                                <blockquote class="masters__quote">
+                                    Занимаюсь ремонтом стиральных машин уже 7 лет, потому что решил когда-то почить свою. Отучился на профильном курсе в
+                                    иституте М.И. Баумана.
+                                </blockquote>
+                            </div>
+                            <div class="masters__slide swiper-slide">
+                                <div class="master__slide-top">
+                                    <h4 class="masters__name">
+                                        Олег Самсонов
+                                    </h4>
+                                    <div class="masters__experience">
+                                        7 лет опыта
+                                    </div>
+                                    <div class="masters__specialization">
+                                        Мастер по ремонту стиральным машин
+                                        и посудомоечных машин
+                                    </div>
+                                </div>
+                                <blockquote class="masters__quote">
+                                    Занимаюсь ремонтом стиральных машин уже 7 лет, потому что решил когда-то почить свою. Отучился на профильном курсе в
+                                    иституте М.И. Баумана.
+                                </blockquote>
+                            </div>
+                            <div class="masters__slide swiper-slide">
+                                <div class="master__slide-top">
+                                    <h4 class="masters__name">
+                                        Олег Самсонов
+                                    </h4>
+                                    <div class="masters__experience">
+                                        7 лет опыта
+                                    </div>
+                                    <div class="masters__specialization">
+                                        Мастер по ремонту стиральным машин
+                                        и посудомоечных машин
+                                    </div>
+                                </div>
+                                <blockquote class="masters__quote">
+                                    Занимаюсь ремонтом стиральных машин уже 7 лет, потому что решил когда-то почить свою. Отучился на профильном курсе в
+                                    иституте М.И. Баумана.
+                                </blockquote>
+                            </div>
+                            <div class="masters__slide swiper-slide">
+                                <div class="master__slide-top">
+                                    <h4 class="masters__name">
+                                        Олег Самсонов
+                                    </h4>
+                                    <div class="masters__experience">
+                                        7 лет опыта
+                                    </div>
+                                    <div class="masters__specialization">
+                                        Мастер по ремонту стиральным машин
+                                        и посудомоечных машин
+                                    </div>
+                                </div>
+                                <blockquote class="masters__quote">
+                                    Занимаюсь ремонтом стиральных машин уже 7 лет, потому что решил когда-то почить свою. Отучился на профильном курсе в
+                                    иституте М.И. Баумана.
+                                </blockquote>
+                            </div>
+                            <div class="masters__slide swiper-slide">
+                                <div class="master__slide-top">
+                                    <h4 class="masters__name">
+                                        Олег Самсонов
+                                    </h4>
+                                    <div class="masters__experience">
+                                        7 лет опыта
+                                    </div>
+                                    <div class="masters__specialization">
+                                        Мастер по ремонту стиральным машин
+                                        и посудомоечных машин
+                                    </div>
+                                </div>
+                                <blockquote class="masters__quote">
+                                    Занимаюсь ремонтом стиральных машин уже 7 лет, потому что решил когда-то почить свою. Отучился на профильном курсе в
+                                    иституте М.И. Баумана.
+                                </blockquote>
+                            </div>
+                            <div class="masters__slide swiper-slide">
+                                <div class="master__slide-top">
+                                    <h4 class="masters__name">
+                                        Олег Самсонов
+                                    </h4>
+                                    <div class="masters__experience">
+                                        7 лет опыта
+                                    </div>
+                                    <div class="masters__specialization">
+                                        Мастер по ремонту стиральным машин
+                                        и посудомоечных машин
+                                    </div>
+                                </div>
+                                <blockquote class="masters__quote">
+                                    Занимаюсь ремонтом стиральных машин уже 7 лет, потому что решил когда-то почить свою. Отучился на профильном курсе в
+                                    иституте М.И. Баумана.
+                                </blockquote>
+                            </div>
+                            <div class="masters__slide swiper-slide">
+                                <div class="master__slide-top">
+                                    <h4 class="masters__name">
+                                        Олег Самсонов
+                                    </h4>
+                                    <div class="masters__experience">
+                                        7 лет опыта
+                                    </div>
+                                    <div class="masters__specialization">
+                                        Мастер по ремонту стиральным машин
+                                        и посудомоечных машин
+                                    </div>
+                                </div>
+                                <blockquote class="masters__quote">
+                                    Занимаюсь ремонтом стиральных машин уже 7 лет, потому что решил когда-то почить свою. Отучился на профильном курсе в
+                                    иституте М.И. Баумана.
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="masters-pagination"></div>
+                        <div class="masters-button-prev">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15 27.5C21.8925 27.5 27.5 21.8925 27.5 15C27.5 8.1075 21.8925 2.5 15 2.5C8.1075 2.5 2.5 8.1075 2.5 15C2.5 21.8925 8.1075 27.5 15 27.5ZM15 5C20.5138 5 25 9.48625 25 15C25 20.5137 20.5137 25 15 25C9.48625 25 5 20.5137 5 15C5 9.48625 9.48625 5 15 5Z"
+                                    fill="#3C93F0" />
+                                <path d="M13.3837 22.1337L20.5175 15L13.3837 7.86622L11.6162 9.63373L16.9825 15L11.6162 20.3662L13.3837 22.1337Z"
+                                    fill="#3C93F0" />
+                            </svg>
+                        </div>
+                        <div class="masters-button-next">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15 27.5C21.8925 27.5 27.5 21.8925 27.5 15C27.5 8.1075 21.8925 2.5 15 2.5C8.1075 2.5 2.5 8.1075 2.5 15C2.5 21.8925 8.1075 27.5 15 27.5ZM15 5C20.5138 5 25 9.48625 25 15C25 20.5137 20.5137 25 15 25C9.48625 25 5 20.5137 5 15C5 9.48625 9.48625 5 15 5Z"
+                                    fill="#3C93F0" />
+                                <path d="M13.3837 22.1337L20.5175 15L13.3837 7.86622L11.6162 9.63373L16.9825 15L11.6162 20.3662L13.3837 22.1337Z"
+                                    fill="#3C93F0" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <div class="section__header">
+                        <h2 class="section__title">
+                            Что о нас говорят?
+                        </h2>
+                        <div class="section__caption">
+                            О качестве работ компании говорят ее клиенты. Изучить мнение наших заказчиков вы можете ниже или в сервисах Google,
+                            Яндекс. Нам есть, чем гордиться!
+                        </div>
+                    </div>
+                    <div class="reviews__items">
+                        <div class="reviews__item">
+                            <img src="images/reviews/1.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/1-1.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/1-2.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/2.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/2-1.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/2-2.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/3.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/3-1.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/3-2.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/4.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/4-1.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/4-2.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/5.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/5-1.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/5-2.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/6.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/6-1.jpg" alt="">
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/reviews/6-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="reviews__bottom">
+                        <a class="reviews__more btn" href="#">
+                            Смотреть все отзывы
+                        </a>
+                        <div class="reviews__platforms">
+                            <a class="reviews__platform" href="#">
+                                <div class="reviews__banner">
+                                    4,7
+                                </div>
+                                <div class="reviews__center">
+                                    <div class="reviews__rating">
+                                        <img src="images/star-full.svg" alt="">
+                                        <img src="images/star-full.svg" alt="">
+                                        <img src="images/star-full.svg" alt="">
+                                        <img src="images/star-full.svg" alt="">
+                                        <img src="images/star-half.svg" alt="">
+                                    </div>
+                                    <div class="reviews__caption">
+                                        Рейтинг
+                                        по отзывам в
+                                    </div>
+                                </div>
+                                <div class="reviews__right">
+                                    <div class="reviews__logo">
+                                        <img src="images/yandex-logo.svg" alt="">
+                                    </div>
+                                    <div class="reviews__amount">
+                                        125 оценок
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="reviews__platform" href="#">
+                                <div class="reviews__banner">
+                                    4,5
+                                </div>
+                                <div class="reviews__center">
+                                    <div class="reviews__rating">
+                                        <img src="images/star-full.svg" alt="">
+                                        <img src="images/star-full.svg" alt="">
+                                        <img src="images/star-full.svg" alt="">
+                                        <img src="images/star-full.svg" alt="">
+                                        <img src="images/star-half.svg" alt="">
+                                    </div>
+                                    <div class="reviews__caption">
+                                        Рейтинг
+                                        по отзывам в
+                                    </div>
+                                </div>
+                                <div class="reviews__right">
+                                    <div class="reviews__logo">
+                                        <img src="images/google-logo.svg" alt="">
+                                    </div>
+                                    <div class="reviews__amount">
+                                        355 оценок
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="benefits">
+                <div class="container">
+                    <div class="section__header">
+                        <h2 class="section__title">
+                            Почему выбирают нас?
+                        </h2>
+                        <div class="section__caption">
+                            Наши премущества, помогают нам удерживать лидирующие позиции на рынке услуг по ремонту бытовой техники.
+                        </div>
+                    </div>
+                    <div class="benefits__items">
+                        <div class="benefits__item">
+                            <h3 class="benefits__title">
+                                Будем в течении 30 минут
+                            </h3>
+                            <div class="benefits__text">
+                                У нас более 150 мастеров в 125 районах Москвы, что позволяет обработать заказ в кратчайшие сроки.
+                            </div>
+                        </div>
+                        <div class="benefits__item">
+                            <h3 class="benefits__title">
+                                Оригинальные запчасти
+                            </h3>
+                            <div class="benefits__text">
+                                Подбираем и используем комплетующие только авторизированых от брендов поставщиков.
+                            </div>
+                        </div>
+                        <div class="benefits__item">
+                            <h3 class="benefits__title">
+                                Подарок каждому клиенту
+                            </h3>
+                            <div class="benefits__text">
+                                Каждому клиенту производившиму ремонт, дарим атибактериальную обработку техники.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <div class="about__inner bg" style="background-image: url(images/about-bg.png);">
+                        <div class="about__left">
+                            <div class="about__top">
+                                <h2 class="about__title">
+                                    Меня зовут Дмитрий Соколов
+                                    и мы гордимся, что уже 20 лет
+                                </h2>
+                                <div class="about__text">
+                                    <p>
+                                        обслуживаем все виды бытовой техники в Москве и Московской области
+                                    </p>
+                                    <p>
+                                        Соблюдаем нормы и работаем строго по бизнес процессам, позволяющим нам исключать ошибки в ремонте.
+                                    </p>
+                                    <p>
+                                        Имеем все необходимые сертификаты и лицензии.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about__bottom">
+                                <div class="about__certificates">
+                                    <img src="images/certificates/Bosch1.jpg" alt="Bosch сертификат">
+                                    <img src="images/certificates/Electrolux1.jpg" alt="Electrolux сертификат">
+                                    <img src="images/certificates/AEG3.jpg" alt="AEG сертификат">
+                                    <img src="images/certificates/Ardo1.jpg" alt="Ardo сертификат">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__right">
+                            <h2 class="about__title">
+                                Начнем
+                            </h2>
+                            <div class="about__right-text">
+                                С подробного описания наших услуг и их рассценками
+                            </div>
+                            <div class="about__services">
+                                <img src="images/about-docs.png" alt="Прайслист">
+                            </div>
+                            <div class="about__caption">
+                                Мы открыты к диалогу и всегда сможем найти общий язык
+                            </div>
+                            <a href="#" class="about__download btn">
+                                Скачать прайслист
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a href="#intro" class="footer__anchor btn">В начало</a>
+                    <a href="tel:84951065216" class="phone">
+                        8 (495) <span>106-52-16</span>
+                    </a>
+                    <a href="mailto:order@mrappiliance.ru" class="email">
+                        order@mrappiliance.ru
+                    </a>
+                    <div class="identification-number">
+                        ИНН 2003922 / ОГРН 21002494911
+                    </div>
+                    <a href="#" class="privacy-policy">
+                        Политика конфиденциальности и обработки персональных данных.
+                    </a>
+                    <div class="footer__copy">
+                        2021 © Мистер Быт
+                    </div>
+                    <div class="footer__caption">
+                        Представленная на сайте информация, касающаяся сроков, стоимости и порядка предоставления услуг, носит информационный
+                        характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского
+                        кодекса РФ.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>
